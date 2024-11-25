@@ -22,6 +22,11 @@ offset_bottom = 230.0
 offset_right = 8.0
 offset_bottom = 16.0
 
+[node name="Button2" type="Button" parent="."]
+offset_right = 8.0
+offset_bottom = 8.0
+
 [connection signal="button_down" from="Button" to="." method="_on_button_button_down"]
 [connection signal="value_changed" from="HSlider" to="." method="_on_h_slider_value_changed"]
 [connection signal="value_changed" from="HSlider2" to="." method="_on_h_slider_2_value_changed"]
+[connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]

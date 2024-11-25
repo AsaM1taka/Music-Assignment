@@ -31,3 +31,7 @@ func _on_h_slider_2_value_changed(value: float) -> void:
 	f.cutoff_hz = value
 	
 	pass # Replace with function body.
+
+
+func _on_button_2_pressed() -> void:
+	pass # Replace with function body.
