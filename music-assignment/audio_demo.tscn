@@ -126,6 +126,13 @@ offset_right = -5.0
 offset_bottom = 161.0
 text = "cd"
 
+[node name="Button13" type="Button" parent="Button12/Button9"]
+offset_left = 286.0
+offset_top = -169.0
+offset_right = 313.0
+offset_bottom = -76.0
+text = "g3"
+
 [node name="Button13" type="Button" parent="."]
 offset_left = 392.0
 offset_top = 199.0
@@ -214,6 +221,7 @@ text = "a4'
 [connection signal="button_down" from="Button11/Button11" to="." method="_on_button_button_down"]
 [connection signal="button_down" from="Button12" to="." method="_on_button_button_down"]
 [connection signal="button_down" from="Button12/Button9" to="." method="_on_button_button_down"]
+[connection signal="button_down" from="Button12/Button9/Button13" to="." method="_on_button_button_down"]
 [connection signal="button_down" from="Button13" to="." method="_on_button_button_down"]
 [connection signal="button_down" from="Button18" to="." method="_on_button_button_down"]
 [connection signal="button_down" from="Button19" to="." method="_on_button_button_down"]
