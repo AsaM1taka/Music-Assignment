@@ -30,3 +30,9 @@ func _on_h_slider_value_changed(value: float) -> void:
 
 func _on_button_2_pressed() -> void:
 	pass # Replace with function body.
+
+
+func _on_h_slider_3_value_changed(value: float) -> void:
+	var lp: AudioServer.get_bus_effect(0,1)
+	lp.cutoff_hz = value
+	pass # Replace with function body.
