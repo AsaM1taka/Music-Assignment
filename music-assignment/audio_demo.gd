@@ -34,7 +34,6 @@ func _on_e_4_pressed() -> void:
 func _on_f_4_pressed() -> void:
 	$"f4/f4 sound".play()
 	pass # Replace with function body.
-	
 
 
 func _on_g_4_pressed() -> void:
@@ -137,4 +136,14 @@ func _on_a_33_pressed() -> void:
 
 func _on_d_33_pressed() -> void:
 	$"d3#3/d3# sound".play()
+	pass # Replace with function body.
+	
+
+
+
+func _on_h_slider_value_changed(value: float) -> void:
+	var effect = AudioServer.get_bus_effect(0,1)
+	
+	#if !toggled_on:
+		#effect.eff = 0
 	pass # Replace with function body.

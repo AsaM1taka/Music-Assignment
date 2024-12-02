@@ -293,6 +293,12 @@ text = "a3'"
 position = Vector2(-310, -191)
 stream = ExtResource("24_x0adn")
 
+[node name="HSlider" type="HSlider" parent="."]
+offset_left = 242.0
+offset_top = 146.0
+offset_right = 513.0
+offset_bottom = 162.0
+
 [connection signal="pressed" from="c4" to="." method="_on_c_4_pressed"]
 [connection signal="pressed" from="d4" to="." method="_on_d_4_pressed"]
 [connection signal="pressed" from="e4" to="." method="_on_e_4_pressed"]
@@ -317,3 +323,4 @@ stream = ExtResource("24_x0adn")
 [connection signal="pressed" from="f3#3" to="." method="_on_f_33_pressed"]
 [connection signal="pressed" from="g3#3" to="." method="_on_g_33_pressed"]
 [connection signal="pressed" from="a3#3" to="." method="_on_a_33_pressed"]
+[connection signal="value_changed" from="HSlider" to="." method="_on_h_slider_value_changed"]
