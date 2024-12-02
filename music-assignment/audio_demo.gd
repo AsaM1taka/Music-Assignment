@@ -24,11 +24,6 @@ func _on_button_button_down() -> void:
 func _on_h_slider_value_changed(value: float) -> void:
 	$AudioStreamPlayer2D.pitch_scale = value
 	pass # Replace with function body.
-
-
-func _on_h_slider_2_value_changed(value: float) -> void:
-	var f: AudioEffectLowPassFilter = AudioServer.get_bus_effect()
-	f.cutoff_hz = value
 	
 	pass # Replace with function body.
 
