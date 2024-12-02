@@ -133,3 +133,8 @@ func _on_g_33_pressed() -> void:
 func _on_a_33_pressed() -> void:
 	$"a3#3/a3# sound".play()
 	pass # Replace with function body.
+
+
+func _on_d_33_pressed() -> void:
+	$"d3#3/d3# sound".play()
+	pass # Replace with function body.
