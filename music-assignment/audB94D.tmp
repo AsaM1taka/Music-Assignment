@@ -125,9 +125,9 @@ stream = ExtResource("4_hbbud")
 
 [node name="f4" type="Button" parent="Control"]
 layout_mode = 0
-offset_left = 685.0
+offset_left = 684.0
 offset_top = 245.0
-offset_right = 728.0
+offset_right = 727.0
 offset_bottom = 405.0
 text = "f4"
 
@@ -137,9 +137,9 @@ stream = ExtResource("5_t1pnr")
 
 [node name="g4" type="Button" parent="Control"]
 layout_mode = 0
-offset_left = 730.0
+offset_left = 729.0
 offset_top = 245.0
-offset_right = 773.0
+offset_right = 772.0
 offset_bottom = 405.0
 text = "g4"
 
@@ -149,9 +149,9 @@ stream = ExtResource("6_inbof")
 
 [node name="a4" type="Button" parent="Control"]
 layout_mode = 0
-offset_left = 775.0
+offset_left = 774.0
 offset_top = 245.0
-offset_right = 818.0
+offset_right = 817.0
 offset_bottom = 405.0
 text = "a4"
 
@@ -161,9 +161,9 @@ stream = ExtResource("7_s5r8n")
 
 [node name="b4" type="Button" parent="Control"]
 layout_mode = 0
-offset_left = 820.0
+offset_left = 819.0
 offset_top = 245.0
-offset_right = 863.0
+offset_right = 862.0
 offset_bottom = 405.0
 text = "b4"
 
@@ -271,9 +271,9 @@ theme = SubResource("Theme_xb35a")
 
 [node name="c4#4" type="Button" parent="Control2"]
 layout_mode = 0
-offset_left = 581.0
+offset_left = 580.0
 offset_top = 242.0
-offset_right = 610.0
+offset_right = 609.0
 offset_bottom = 335.0
 text = "c4'"
 
@@ -283,9 +283,9 @@ stream = ExtResource("16_b7pdt")
 
 [node name="d4#4" type="Button" parent="Control2"]
 layout_mode = 0
-offset_left = 626.0
+offset_left = 625.0
 offset_top = 242.0
-offset_right = 657.0
+offset_right = 656.0
 offset_bottom = 335.0
 text = "d4'"
 
@@ -319,9 +319,9 @@ stream = ExtResource("19_cyofy")
 
 [node name="a4#4" type="Button" parent="Control2"]
 layout_mode = 0
-offset_left = 808.0
+offset_left = 805.0
 offset_top = 242.0
-offset_right = 839.0
+offset_right = 836.0
 offset_bottom = 335.0
 text = "a4'
 "
