@@ -8,16 +8,9 @@ func _ready() -> void:
 		AudioServer.set_bus_effect_enabled(0, 0, false)
 	pass
 
-
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	pass
-
-#func _on_h_slider_3_value_changed(value: float) -> void:
-	#var lp: AudioServer.get_bus_effect(0,1)
-	#lp.cutoff_hz = .value
-	pass # Replace with function body
-
 
 func _on_c_4_pressed() -> void:
 	$"Control/c4/c4 sound".play()
@@ -147,4 +140,6 @@ func _on_check_button_2_toggled(toggled_on: bool) -> void:
 	else:
 			print("no effect")
 	pass # Replace with function body.
+	
+	
 	

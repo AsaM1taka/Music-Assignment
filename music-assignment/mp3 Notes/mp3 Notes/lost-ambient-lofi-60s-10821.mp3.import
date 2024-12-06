@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bqnv4q6qpwug6"
+path="res://.godot/imported/lost-ambient-lofi-60s-10821.mp3-1badc3eb1499a57912ebf00ab1398a1d.mp3str"
+
+[deps]
+
+source_file="res://mp3 Notes/mp3 Notes/lost-ambient-lofi-60s-10821.mp3"
+dest_files=["res://.godot/imported/lost-ambient-lofi-60s-10821.mp3-1badc3eb1499a57912ebf00ab1398a1d.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
