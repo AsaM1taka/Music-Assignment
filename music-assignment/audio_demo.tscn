@@ -1,4 +1,4 @@
-[gd_scene load_steps=29 format=3 uid="uid://b26fi77jjynbx"]
+[gd_scene load_steps=31 format=3 uid="uid://b26fi77jjynbx"]
 
 [ext_resource type="Script" path="res://audio_demo.gd" id="1_ekvb8"]
 [ext_resource type="AudioStream" uid="uid://drf3xxtnd4fc4" path="res://mp3 Notes/mp3 Notes/c4.mp3" id="2_nk2n0"]
@@ -28,17 +28,32 @@
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_v3m31"]
 bg_color = Color(0.984932, 0.943425, 0.914359, 1)
 border_width_left = 4
-border_width_right = 2
-border_width_bottom = 4
+border_width_right = 3
+border_width_bottom = 3
 corner_radius_top_left = 4
 corner_radius_top_right = 4
 corner_radius_bottom_right = 4
 corner_radius_bottom_left = 4
 shadow_color = Color(0.190762, 0.190762, 0.190762, 0.6)
+shadow_size = 6
+shadow_offset = Vector2(1.74, 2.375)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ktis2"]
+bg_color = Color(1, 0.622808, 0.87938, 1)
+border_width_left = 3
+border_width_right = 3
+border_width_bottom = 4
+border_color = Color(0.660908, 0.360675, 0.514822, 1)
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
 shadow_size = 3
+shadow_offset = Vector2(0.27, 0.265)
 
 [sub_resource type="Theme" id="Theme_bdm5y"]
 Button/styles/normal = SubResource("StyleBoxFlat_v3m31")
+Button/styles/pressed = SubResource("StyleBoxFlat_ktis2")
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5wawd"]
 bg_color = Color(0.140447, 0.140447, 0.140447, 1)
@@ -50,8 +65,16 @@ corner_radius_top_right = 4
 corner_radius_bottom_right = 4
 corner_radius_bottom_left = 4
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_p2lds"]
+bg_color = Color(0.211441, 0.0979301, 0.158331, 1)
+border_width_left = 3
+border_width_right = 3
+border_width_bottom = 4
+border_color = Color(0.16059, 0.0914758, 0.115638, 1)
+
 [sub_resource type="Theme" id="Theme_xb35a"]
 Button/styles/normal = SubResource("StyleBoxFlat_5wawd")
+Button/styles/pressed = SubResource("StyleBoxFlat_p2lds")
 
 [node name="Audio Demo" type="Node2D"]
 script = ExtResource("1_ekvb8")
@@ -65,6 +88,7 @@ offset_bottom = 40.0
 theme = SubResource("Theme_bdm5y")
 
 [node name="c4" type="Button" parent="Control"]
+layout_mode = 0
 offset_left = 567.0
 offset_top = 243.0
 offset_right = 610.0
@@ -76,6 +100,7 @@ position = Vector2(-377, -192)
 stream = ExtResource("2_nk2n0")
 
 [node name="d4" type="Button" parent="Control"]
+layout_mode = 0
 offset_left = 618.0
 offset_top = 243.0
 offset_right = 661.0
@@ -87,6 +112,7 @@ position = Vector2(-428, -192)
 stream = ExtResource("3_ueqic")
 
 [node name="e4" type="Button" parent="Control"]
+layout_mode = 0
 offset_left = 667.0
 offset_top = 243.0
 offset_right = 710.0
@@ -98,6 +124,7 @@ position = Vector2(-477, -192)
 stream = ExtResource("4_hbbud")
 
 [node name="f4" type="Button" parent="Control"]
+layout_mode = 0
 offset_left = 714.0
 offset_top = 243.0
 offset_right = 757.0
@@ -109,6 +136,7 @@ position = Vector2(-524, -192)
 stream = ExtResource("5_t1pnr")
 
 [node name="g4" type="Button" parent="Control"]
+layout_mode = 0
 offset_left = 764.0
 offset_top = 243.0
 offset_right = 807.0
@@ -120,6 +148,7 @@ position = Vector2(-574, -192)
 stream = ExtResource("6_inbof")
 
 [node name="a4" type="Button" parent="Control"]
+layout_mode = 0
 offset_left = 810.0
 offset_top = 243.0
 offset_right = 853.0
@@ -131,6 +160,7 @@ position = Vector2(-620, -192)
 stream = ExtResource("7_s5r8n")
 
 [node name="b4" type="Button" parent="Control"]
+layout_mode = 0
 offset_left = 858.0
 offset_top = 243.0
 offset_right = 901.0
@@ -142,6 +172,7 @@ position = Vector2(-668, -192)
 stream = ExtResource("8_5r0lt")
 
 [node name="c3" type="Button" parent="Control"]
+layout_mode = 0
 offset_left = 231.0
 offset_top = 245.0
 offset_right = 274.0
@@ -153,6 +184,7 @@ position = Vector2(-41, -194)
 stream = ExtResource("9_lostx")
 
 [node name="d3" type="Button" parent="Control"]
+layout_mode = 0
 offset_left = 279.0
 offset_top = 245.0
 offset_right = 322.0
@@ -164,6 +196,7 @@ position = Vector2(-89, -193)
 stream = ExtResource("10_p60xs")
 
 [node name="e3" type="Button" parent="Control"]
+layout_mode = 0
 offset_left = 325.0
 offset_top = 245.0
 offset_right = 368.0
@@ -175,6 +208,7 @@ position = Vector2(-135, -194)
 stream = ExtResource("11_5gy64")
 
 [node name="f3" type="Button" parent="Control"]
+layout_mode = 0
 offset_left = 372.0
 offset_top = 245.0
 offset_right = 415.0
@@ -186,6 +220,7 @@ position = Vector2(-182, -194)
 stream = ExtResource("12_8n8n5")
 
 [node name="g3" type="Button" parent="Control"]
+layout_mode = 0
 offset_left = 420.0
 offset_top = 244.0
 offset_right = 463.0
@@ -197,6 +232,7 @@ position = Vector2(-230, -193)
 stream = ExtResource("13_iunib")
 
 [node name="a3" type="Button" parent="Control"]
+layout_mode = 0
 offset_left = 467.0
 offset_top = 244.0
 offset_right = 510.0
@@ -208,6 +244,7 @@ position = Vector2(-277, -193)
 stream = ExtResource("14_trk0g")
 
 [node name="b3" type="Button" parent="Control"]
+layout_mode = 0
 offset_left = 516.0
 offset_top = 244.0
 offset_right = 559.0
@@ -219,6 +256,7 @@ position = Vector2(-326, -193)
 stream = ExtResource("15_5fq41")
 
 [node name="HSlider" type="HSlider" parent="Control"]
+layout_mode = 0
 offset_left = 432.0
 offset_top = 197.0
 offset_right = 703.0
@@ -232,6 +270,7 @@ offset_bottom = 40.0
 theme = SubResource("Theme_xb35a")
 
 [node name="c4#4" type="Button" parent="Control2"]
+layout_mode = 0
 offset_left = 601.0
 offset_top = 242.0
 offset_right = 630.0
@@ -243,6 +282,7 @@ position = Vector2(-411, -191)
 stream = ExtResource("16_b7pdt")
 
 [node name="d4#4" type="Button" parent="Control2"]
+layout_mode = 0
 offset_left = 650.0
 offset_top = 242.0
 offset_right = 681.0
@@ -254,6 +294,7 @@ position = Vector2(-460, -191)
 stream = ExtResource("17_c08ch")
 
 [node name="f4#4" type="Button" parent="Control2"]
+layout_mode = 0
 offset_left = 745.0
 offset_top = 242.0
 offset_right = 772.0
@@ -265,6 +306,7 @@ position = Vector2(-555, -191)
 stream = ExtResource("18_s2en8")
 
 [node name="g4#4" type="Button" parent="Control2"]
+layout_mode = 0
 offset_left = 794.0
 offset_top = 242.0
 offset_right = 824.0
@@ -276,6 +318,7 @@ position = Vector2(-604, -191)
 stream = ExtResource("19_cyofy")
 
 [node name="a4#4" type="Button" parent="Control2"]
+layout_mode = 0
 offset_left = 842.0
 offset_top = 242.0
 offset_right = 873.0
@@ -288,6 +331,7 @@ position = Vector2(-652, -191)
 stream = ExtResource("20_j63dn")
 
 [node name="c3#3" type="Button" parent="Control2"]
+layout_mode = 0
 offset_left = 264.0
 offset_top = 242.0
 offset_right = 293.0
@@ -299,6 +343,7 @@ position = Vector2(-74, -191)
 stream = ExtResource("21_0c3fx")
 
 [node name="d3#3" type="Button" parent="Control2"]
+layout_mode = 0
 offset_left = 310.0
 offset_top = 242.0
 offset_right = 341.0
@@ -310,6 +355,7 @@ position = Vector2(-120, -191)
 stream = ExtResource("10_p60xs")
 
 [node name="f3#3" type="Button" parent="Control2"]
+layout_mode = 0
 offset_left = 401.0
 offset_top = 242.0
 offset_right = 428.0
@@ -321,6 +367,7 @@ position = Vector2(-211, -191)
 stream = ExtResource("22_irwnk")
 
 [node name="g3#3" type="Button" parent="Control2"]
+layout_mode = 0
 offset_left = 450.0
 offset_top = 242.0
 offset_right = 480.0
@@ -332,6 +379,7 @@ position = Vector2(-260, -191)
 stream = ExtResource("23_3yvep")
 
 [node name="a3#3" type="Button" parent="Control2"]
+layout_mode = 0
 offset_left = 500.0
 offset_top = 242.0
 offset_right = 531.0
