@@ -3,7 +3,10 @@ extends Node2D
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	pass # Replace with function body.
+	var effect_count = AudioServer.get_bus_effect_count(0)
+	if effect_count > 0:
+		AudioServer.set_bus_effect_enabled(0, 0, false)
+	pass
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -134,22 +137,14 @@ func _on_a_33_pressed() -> void:
 func _on_d_33_pressed() -> void:
 	$"Control2/d3#3/d3# sound".play()
 	pass # Replace with function body.
-	
 
 
-
-func _on_h_slider_value_changed(value: float) -> void:
-	var effect = AudioServer.get_bus_effect(0,1)
-	
-	#if !toggled_on:
-		#effect.eff = 0
+func _on_check_button_2_toggled(toggled_on: bool) -> void:  
+	var effect_count = AudioServer.get_bus_effect_count(0)
+	if effect_count > 0:
+		AudioServer.set_bus_effect_enabled(0, 0, toggled_on)
+		print("Effect on:", toggled_on)
+	else:
+			print("no effect")
 	pass # Replace with function body.
-
-
-#func _on_control_gui_input(event: InputEvent) -> void:
 	
-	pass # Replace with function body.
-
-
-#func _on_control_2_gui_input(event: InputEvent) -> void:
-	pass # Replace with function body.

@@ -391,11 +391,18 @@ offset_bottom = 217.0
 max_value = 1.0
 step = 0.1
 
+[node name="CheckButton" type="CheckButton" parent="."]
+offset_left = 220.0
+offset_top = 172.0
+offset_right = 310.0
+offset_bottom = 214.0
+
 [node name="CheckButton2" type="CheckButton" parent="."]
 offset_left = 723.0
 offset_top = 172.0
 offset_right = 813.0
 offset_bottom = 214.0
+button_mask = 0
 
 [connection signal="gui_input" from="Control" to="." method="_on_control_gui_input"]
 [connection signal="pressed" from="Control/c4" to="." method="_on_c_4_pressed"]
