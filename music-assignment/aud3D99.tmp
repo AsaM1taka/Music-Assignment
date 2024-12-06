@@ -1,4 +1,4 @@
-[gd_scene load_steps=32 format=3 uid="uid://b26fi77jjynbx"]
+[gd_scene load_steps=31 format=3 uid="uid://b26fi77jjynbx"]
 
 [ext_resource type="Script" path="res://audio_demo.gd" id="1_ekvb8"]
 [ext_resource type="AudioStream" uid="uid://drf3xxtnd4fc4" path="res://mp3 Notes/mp3 Notes/c4.mp3" id="2_nk2n0"]
@@ -24,7 +24,6 @@
 [ext_resource type="AudioStream" uid="uid://ctrltd2chll8l" path="res://mp3 Notes/mp3 Notes/f-3.mp3" id="22_irwnk"]
 [ext_resource type="AudioStream" uid="uid://dnrx5agmgb2yq" path="res://mp3 Notes/mp3 Notes/g-3.mp3" id="23_3yvep"]
 [ext_resource type="AudioStream" uid="uid://b4ym3hva5cii0" path="res://mp3 Notes/mp3 Notes/a-3.mp3" id="24_x0adn"]
-[ext_resource type="AudioStream" uid="uid://bqnv4q6qpwug6" path="res://mp3 Notes/mp3 Notes/lost-ambient-lofi-60s-10821.mp3" id="25_1j07n"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_v3m31"]
 bg_color = Color(0.984932, 0.943425, 0.914359, 1)
@@ -389,12 +388,6 @@ offset_left = 480.0
 offset_top = 176.0
 offset_right = 570.0
 offset_bottom = 218.0
-
-[node name="Background music" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource("25_1j07n")
-volume_db = -38.084
-autoplay = true
-bus = &"Music"
 
 [connection signal="gui_input" from="Control" to="." method="_on_control_gui_input"]
 [connection signal="pressed" from="Control/c4" to="." method="_on_c_4_pressed"]

@@ -1,4 +1,4 @@
-[gd_scene load_steps=32 format=3 uid="uid://b26fi77jjynbx"]
+[gd_scene load_steps=31 format=3 uid="uid://b26fi77jjynbx"]
 
 [ext_resource type="Script" path="res://audio_demo.gd" id="1_ekvb8"]
 [ext_resource type="AudioStream" uid="uid://drf3xxtnd4fc4" path="res://mp3 Notes/mp3 Notes/c4.mp3" id="2_nk2n0"]
@@ -24,7 +24,6 @@
 [ext_resource type="AudioStream" uid="uid://ctrltd2chll8l" path="res://mp3 Notes/mp3 Notes/f-3.mp3" id="22_irwnk"]
 [ext_resource type="AudioStream" uid="uid://dnrx5agmgb2yq" path="res://mp3 Notes/mp3 Notes/g-3.mp3" id="23_3yvep"]
 [ext_resource type="AudioStream" uid="uid://b4ym3hva5cii0" path="res://mp3 Notes/mp3 Notes/a-3.mp3" id="24_x0adn"]
-[ext_resource type="AudioStream" uid="uid://bqnv4q6qpwug6" path="res://mp3 Notes/mp3 Notes/lost-ambient-lofi-60s-10821.mp3" id="25_1j07n"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_v3m31"]
 bg_color = Color(0.984932, 0.943425, 0.914359, 1)
@@ -102,9 +101,9 @@ stream = ExtResource("2_nk2n0")
 
 [node name="d4" type="Button" parent="Control"]
 layout_mode = 0
-offset_left = 595.0
+offset_left = 594.0
 offset_top = 245.0
-offset_right = 638.0
+offset_right = 637.0
 offset_bottom = 405.0
 text = "d4"
 
@@ -114,9 +113,9 @@ stream = ExtResource("3_ueqic")
 
 [node name="e4" type="Button" parent="Control"]
 layout_mode = 0
-offset_left = 640.0
+offset_left = 639.0
 offset_top = 245.0
-offset_right = 683.0
+offset_right = 682.0
 offset_bottom = 405.0
 text = "e4"
 
@@ -126,9 +125,9 @@ stream = ExtResource("4_hbbud")
 
 [node name="f4" type="Button" parent="Control"]
 layout_mode = 0
-offset_left = 685.0
+offset_left = 684.0
 offset_top = 245.0
-offset_right = 728.0
+offset_right = 727.0
 offset_bottom = 405.0
 text = "f4"
 
@@ -138,9 +137,9 @@ stream = ExtResource("5_t1pnr")
 
 [node name="g4" type="Button" parent="Control"]
 layout_mode = 0
-offset_left = 730.0
+offset_left = 729.0
 offset_top = 245.0
-offset_right = 773.0
+offset_right = 772.0
 offset_bottom = 405.0
 text = "g4"
 
@@ -150,9 +149,9 @@ stream = ExtResource("6_inbof")
 
 [node name="a4" type="Button" parent="Control"]
 layout_mode = 0
-offset_left = 775.0
+offset_left = 774.0
 offset_top = 245.0
-offset_right = 818.0
+offset_right = 817.0
 offset_bottom = 405.0
 text = "a4"
 
@@ -162,9 +161,9 @@ stream = ExtResource("7_s5r8n")
 
 [node name="b4" type="Button" parent="Control"]
 layout_mode = 0
-offset_left = 820.0
+offset_left = 819.0
 offset_top = 245.0
-offset_right = 863.0
+offset_right = 862.0
 offset_bottom = 405.0
 text = "b4"
 
@@ -256,6 +255,13 @@ text = "b3"
 position = Vector2(-326, -193)
 stream = ExtResource("15_5fq41")
 
+[node name="HSlider" type="HSlider" parent="Control"]
+layout_mode = 0
+offset_left = 432.0
+offset_top = 197.0
+offset_right = 703.0
+offset_bottom = 213.0
+
 [node name="Control2" type="Control" parent="."]
 layout_mode = 3
 anchors_preset = 0
@@ -265,9 +271,9 @@ theme = SubResource("Theme_xb35a")
 
 [node name="c4#4" type="Button" parent="Control2"]
 layout_mode = 0
-offset_left = 581.0
+offset_left = 580.0
 offset_top = 242.0
-offset_right = 610.0
+offset_right = 609.0
 offset_bottom = 335.0
 text = "c4'"
 
@@ -277,9 +283,9 @@ stream = ExtResource("16_b7pdt")
 
 [node name="d4#4" type="Button" parent="Control2"]
 layout_mode = 0
-offset_left = 627.0
+offset_left = 625.0
 offset_top = 242.0
-offset_right = 658.0
+offset_right = 656.0
 offset_bottom = 335.0
 text = "d4'"
 
@@ -313,9 +319,9 @@ stream = ExtResource("19_cyofy")
 
 [node name="a4#4" type="Button" parent="Control2"]
 layout_mode = 0
-offset_left = 808.0
+offset_left = 805.0
 offset_top = 242.0
-offset_right = 839.0
+offset_right = 836.0
 offset_bottom = 335.0
 text = "a4'
 "
@@ -384,18 +390,6 @@ text = "a3'"
 position = Vector2(-310, -191)
 stream = ExtResource("24_x0adn")
 
-[node name="CheckButton2" type="CheckButton" parent="."]
-offset_left = 480.0
-offset_top = 176.0
-offset_right = 570.0
-offset_bottom = 218.0
-
-[node name="Background music" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource("25_1j07n")
-volume_db = -38.084
-autoplay = true
-bus = &"Music"
-
 [connection signal="gui_input" from="Control" to="." method="_on_control_gui_input"]
 [connection signal="pressed" from="Control/c4" to="." method="_on_c_4_pressed"]
 [connection signal="pressed" from="Control/d4" to="." method="_on_d_4_pressed"]
@@ -411,6 +405,7 @@ bus = &"Music"
 [connection signal="pressed" from="Control/g3" to="." method="_on_g_3_pressed"]
 [connection signal="pressed" from="Control/a3" to="." method="_on_a_3_pressed"]
 [connection signal="pressed" from="Control/b3" to="." method="_on_b_3_pressed"]
+[connection signal="value_changed" from="Control/HSlider" to="." method="_on_h_slider_value_changed"]
 [connection signal="gui_input" from="Control2" to="." method="_on_control_2_gui_input"]
 [connection signal="pressed" from="Control2/c4#4" to="." method="_on_c_44_pressed"]
 [connection signal="pressed" from="Control2/d4#4" to="." method="_on_d_44_pressed"]
@@ -422,4 +417,3 @@ bus = &"Music"
 [connection signal="pressed" from="Control2/f3#3" to="." method="_on_f_33_pressed"]
 [connection signal="pressed" from="Control2/g3#3" to="." method="_on_g_33_pressed"]
 [connection signal="pressed" from="Control2/a3#3" to="." method="_on_a_33_pressed"]
-[connection signal="toggled" from="CheckButton2" to="." method="_on_check_button_2_toggled"]
