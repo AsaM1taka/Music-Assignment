@@ -100,7 +100,6 @@ offset_left = 549.0
 offset_top = 245.0
 offset_right = 592.0
 offset_bottom = 405.0
-text = "c4"
 
 [node name="c4 sound" type="AudioStreamPlayer2D" parent="Control/c4"]
 position = Vector2(-377, -192)
@@ -108,11 +107,10 @@ stream = ExtResource("2_nk2n0")
 
 [node name="d4" type="Button" parent="Control"]
 layout_mode = 0
-offset_left = 595.0
+offset_left = 593.0
 offset_top = 245.0
-offset_right = 638.0
+offset_right = 636.0
 offset_bottom = 405.0
-text = "d4"
 
 [node name="d4 sound" type="AudioStreamPlayer2D" parent="Control/d4"]
 position = Vector2(-428, -192)
@@ -120,11 +118,10 @@ stream = ExtResource("3_ueqic")
 
 [node name="e4" type="Button" parent="Control"]
 layout_mode = 0
-offset_left = 640.0
+offset_left = 637.0
 offset_top = 245.0
-offset_right = 683.0
+offset_right = 680.0
 offset_bottom = 405.0
-text = "e4"
 
 [node name="e4 sound" type="AudioStreamPlayer2D" parent="Control/e4"]
 position = Vector2(-477, -192)
@@ -132,11 +129,10 @@ stream = ExtResource("4_hbbud")
 
 [node name="f4" type="Button" parent="Control"]
 layout_mode = 0
-offset_left = 685.0
+offset_left = 681.0
 offset_top = 245.0
-offset_right = 728.0
+offset_right = 724.0
 offset_bottom = 405.0
-text = "f4"
 
 [node name="f4 sound" type="AudioStreamPlayer2D" parent="Control/f4"]
 position = Vector2(-524, -192)
@@ -144,11 +140,10 @@ stream = ExtResource("5_t1pnr")
 
 [node name="g4" type="Button" parent="Control"]
 layout_mode = 0
-offset_left = 730.0
+offset_left = 725.0
 offset_top = 245.0
-offset_right = 773.0
+offset_right = 768.0
 offset_bottom = 405.0
-text = "g4"
 
 [node name="g4 sound" type="AudioStreamPlayer2D" parent="Control/g4"]
 position = Vector2(-574, -192)
@@ -156,11 +151,10 @@ stream = ExtResource("6_inbof")
 
 [node name="a4" type="Button" parent="Control"]
 layout_mode = 0
-offset_left = 775.0
+offset_left = 769.0
 offset_top = 245.0
-offset_right = 818.0
+offset_right = 812.0
 offset_bottom = 405.0
-text = "a4"
 
 [node name="a4 sound" type="AudioStreamPlayer2D" parent="Control/a4"]
 position = Vector2(-620, -192)
@@ -168,11 +162,10 @@ stream = ExtResource("7_s5r8n")
 
 [node name="b4" type="Button" parent="Control"]
 layout_mode = 0
-offset_left = 820.0
+offset_left = 813.0
 offset_top = 245.0
-offset_right = 863.0
+offset_right = 856.0
 offset_bottom = 405.0
-text = "b4"
 
 [node name="b4 sound" type="AudioStreamPlayer2D" parent="Control/b4"]
 position = Vector2(-668, -192)
@@ -184,7 +177,6 @@ offset_left = 234.0
 offset_top = 245.0
 offset_right = 277.0
 offset_bottom = 405.0
-text = "c3"
 
 [node name="c3 sound" type="AudioStreamPlayer2D" parent="Control/c3"]
 position = Vector2(-41, -194)
@@ -196,7 +188,6 @@ offset_left = 279.0
 offset_top = 245.0
 offset_right = 322.0
 offset_bottom = 405.0
-text = "d3"
 
 [node name="d3 sound" type="AudioStreamPlayer2D" parent="Control/d3"]
 position = Vector2(-89, -193)
@@ -208,7 +199,6 @@ offset_left = 324.0
 offset_top = 245.0
 offset_right = 367.0
 offset_bottom = 405.0
-text = "e3"
 
 [node name="e3 sound" type="AudioStreamPlayer2D" parent="Control/e3"]
 position = Vector2(-135, -194)
@@ -220,7 +210,6 @@ offset_left = 369.0
 offset_top = 245.0
 offset_right = 412.0
 offset_bottom = 405.0
-text = "f3"
 
 [node name="f3 sound" type="AudioStreamPlayer2D" parent="Control/f3"]
 position = Vector2(-182, -194)
@@ -232,7 +221,6 @@ offset_left = 414.0
 offset_top = 245.0
 offset_right = 457.0
 offset_bottom = 405.0
-text = "g3"
 
 [node name="g3 sound" type="AudioStreamPlayer2D" parent="Control/g3"]
 position = Vector2(-230, -193)
@@ -244,7 +232,6 @@ offset_left = 459.0
 offset_top = 245.0
 offset_right = 502.0
 offset_bottom = 405.0
-text = "a3"
 
 [node name="a3 sound" type="AudioStreamPlayer2D" parent="Control/a3"]
 position = Vector2(-277, -193)
@@ -256,7 +243,6 @@ offset_left = 504.0
 offset_top = 245.0
 offset_right = 547.0
 offset_bottom = 405.0
-text = "b3"
 
 [node name="b3 sound" type="AudioStreamPlayer2D" parent="Control/b3"]
 position = Vector2(-326, -193)
@@ -273,9 +259,8 @@ theme = SubResource("Theme_xb35a")
 layout_mode = 0
 offset_left = 581.0
 offset_top = 242.0
-offset_right = 610.0
+offset_right = 606.0
 offset_bottom = 335.0
-text = "c4'"
 
 [node name="c4# sound" type="AudioStreamPlayer2D" parent="Control2/c4#4"]
 position = Vector2(-411, -191)
@@ -285,9 +270,8 @@ stream = ExtResource("16_b7pdt")
 layout_mode = 0
 offset_left = 627.0
 offset_top = 242.0
-offset_right = 658.0
+offset_right = 652.0
 offset_bottom = 335.0
-text = "d4'"
 
 [node name="d4# sound" type="AudioStreamPlayer2D" parent="Control2/d4#4"]
 position = Vector2(-460, -191)
@@ -295,11 +279,10 @@ stream = ExtResource("17_c08ch")
 
 [node name="f4#4" type="Button" parent="Control2"]
 layout_mode = 0
-offset_left = 717.0
+offset_left = 713.0
 offset_top = 242.0
-offset_right = 744.0
+offset_right = 740.0
 offset_bottom = 335.0
-text = "f4'"
 
 [node name="f4# sound" type="AudioStreamPlayer2D" parent="Control2/f4#4"]
 position = Vector2(-555, -191)
@@ -307,11 +290,10 @@ stream = ExtResource("18_s2en8")
 
 [node name="g4#4" type="Button" parent="Control2"]
 layout_mode = 0
-offset_left = 760.0
+offset_left = 757.0
 offset_top = 242.0
-offset_right = 790.0
+offset_right = 785.0
 offset_bottom = 335.0
-text = "g4'"
 
 [node name="g4# sound" type="AudioStreamPlayer2D" parent="Control2/g4#4"]
 position = Vector2(-604, -191)
@@ -319,12 +301,10 @@ stream = ExtResource("19_cyofy")
 
 [node name="a4#4" type="Button" parent="Control2"]
 layout_mode = 0
-offset_left = 808.0
+offset_left = 800.0
 offset_top = 242.0
-offset_right = 839.0
+offset_right = 827.0
 offset_bottom = 335.0
-text = "a4'
-"
 
 [node name="a4# sound" type="AudioStreamPlayer2D" parent="Control2/a4#4"]
 position = Vector2(-652, -191)
@@ -334,9 +314,8 @@ stream = ExtResource("20_j63dn")
 layout_mode = 0
 offset_left = 264.0
 offset_top = 242.0
-offset_right = 293.0
+offset_right = 289.0
 offset_bottom = 335.0
-text = "c3'"
 
 [node name="c3# sound" type="AudioStreamPlayer2D" parent="Control2/c3#3"]
 position = Vector2(-74, -191)
@@ -346,9 +325,8 @@ stream = ExtResource("21_0c3fx")
 layout_mode = 0
 offset_left = 310.0
 offset_top = 242.0
-offset_right = 341.0
+offset_right = 336.0
 offset_bottom = 335.0
-text = "d3'"
 
 [node name="d3# sound" type="AudioStreamPlayer2D" parent="Control2/d3#3"]
 position = Vector2(-120, -191)
@@ -358,9 +336,8 @@ stream = ExtResource("10_p60xs")
 layout_mode = 0
 offset_left = 400.0
 offset_top = 242.0
-offset_right = 427.0
+offset_right = 426.0
 offset_bottom = 335.0
-text = "f3'"
 
 [node name="f3# sound" type="AudioStreamPlayer2D" parent="Control2/f3#3"]
 position = Vector2(-211, -191)
@@ -368,11 +345,10 @@ stream = ExtResource("22_irwnk")
 
 [node name="g3#3" type="Button" parent="Control2"]
 layout_mode = 0
-offset_left = 445.0
+offset_left = 446.0
 offset_top = 242.0
-offset_right = 475.0
+offset_right = 473.0
 offset_bottom = 335.0
-text = "g3'"
 
 [node name="g3# sound" type="AudioStreamPlayer2D" parent="Control2/g3#3"]
 position = Vector2(-260, -191)
@@ -380,11 +356,10 @@ stream = ExtResource("23_3yvep")
 
 [node name="a3#3" type="Button" parent="Control2"]
 layout_mode = 0
-offset_left = 491.0
+offset_left = 492.0
 offset_top = 242.0
-offset_right = 522.0
+offset_right = 518.0
 offset_bottom = 335.0
-text = "a3'"
 
 [node name="a3# sound" type="AudioStreamPlayer2D" parent="Control2/a3#3"]
 position = Vector2(-310, -191)
