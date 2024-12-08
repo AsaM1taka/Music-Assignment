@@ -1,6 +1,7 @@
-[gd_scene load_steps=32 format=3 uid="uid://b26fi77jjynbx"]
+[gd_scene load_steps=33 format=3 uid="uid://b26fi77jjynbx"]
 
 [ext_resource type="Script" path="res://audio_demo.gd" id="1_ekvb8"]
+[ext_resource type="Texture2D" uid="uid://cao4iw42i1lr4" path="res://roman-melnychuk-e_5MKU1dSv4-unsplash.jpg" id="2_78gin"]
 [ext_resource type="AudioStream" uid="uid://drf3xxtnd4fc4" path="res://mp3 Notes/mp3 Notes/c4.mp3" id="2_nk2n0"]
 [ext_resource type="AudioStream" uid="uid://b1y2idoonmpyr" path="res://mp3 Notes/mp3 Notes/d4.mp3" id="3_ueqic"]
 [ext_resource type="AudioStream" uid="uid://bj7dfayeyrtri" path="res://mp3 Notes/mp3 Notes/e4.mp3" id="4_hbbud"]
@@ -79,6 +80,11 @@ Button/styles/pressed = SubResource("StyleBoxFlat_p2lds")
 
 [node name="Audio Demo" type="Node2D"]
 script = ExtResource("1_ekvb8")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(574, 324.5)
+scale = Vector2(0.598958, 0.507031)
+texture = ExtResource("2_78gin")
 
 [node name="Control" type="Control" parent="."]
 layout_mode = 3
@@ -385,10 +391,10 @@ position = Vector2(-310, -191)
 stream = ExtResource("24_x0adn")
 
 [node name="CheckButton2" type="CheckButton" parent="."]
-offset_left = 480.0
-offset_top = 176.0
-offset_right = 570.0
-offset_bottom = 218.0
+offset_left = 403.0
+offset_top = 132.0
+offset_right = 565.0
+offset_bottom = 204.0
 
 [node name="Background music" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("25_1j07n")
